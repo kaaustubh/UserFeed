@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32DFC92823CCD454002EA17E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC92723CCD454002EA17E /* AppDelegate.swift */; };
+		32DFC92A23CCD454002EA17E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC92923CCD454002EA17E /* SceneDelegate.swift */; };
+		32DFC92C23CCD454002EA17E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC92B23CCD454002EA17E /* ViewController.swift */; };
+		32DFC92F23CCD454002EA17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DFC92D23CCD454002EA17E /* Main.storyboard */; };
+		32DFC93123CCD457002EA17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DFC93023CCD457002EA17E /* Assets.xcassets */; };
+		32DFC93423CCD457002EA17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DFC93223CCD457002EA17E /* LaunchScreen.storyboard */; };
+		32DFC93F23CCD458002EA17E /* Audi_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC93E23CCD458002EA17E /* Audi_listTests.swift */; };
+		32DFC94A23CCD458002EA17E /* Audi_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC94923CCD458002EA17E /* Audi_listUITests.swift */; };
+		32DFC95923CCD593002EA17E /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC95823CCD593002EA17E /* NetworkEngine.swift */; };
+		32DFC95B23CCD6A9002EA17E /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC95A23CCD6A9002EA17E /* CustomError.swift */; };
+		32DFC95E23CCD7EC002EA17E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC95D23CCD7EC002EA17E /* Post.swift */; };
+		32DFC96023CCDC83002EA17E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC95F23CCDC83002EA17E /* Reachability.swift */; };
+		32DFC96223CCDE7D002EA17E /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96123CCDE7D002EA17E /* Resource.swift */; };
+		32DFC96423CCDEA8002EA17E /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96323CCDEA8002EA17E /* Path.swift */; };
+		32DFC96623CCF448002EA17E /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96523CCF448002EA17E /* PostsService.swift */; };
+		32DFC96823CD0E58002EA17E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96723CD0E58002EA17E /* PostCell.swift */; };
+		32DFC96A23CD0EB6002EA17E /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96923CD0EB6002EA17E /* WebImageView.swift */; };
+		32DFC96C23CD0F60002EA17E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32DFC93B23CCD457002EA17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DFC91C23CCD454002EA17E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DFC92323CCD454002EA17E;
+			remoteInfo = Audi_list;
+		};
+		32DFC94623CCD458002EA17E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32DFC91C23CCD454002EA17E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DFC92323CCD454002EA17E;
+			remoteInfo = Audi_list;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32DFC92423CCD454002EA17E /* Audi_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audi_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DFC92723CCD454002EA17E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32DFC92923CCD454002EA17E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32DFC92B23CCD454002EA17E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32DFC92E23CCD454002EA17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32DFC93023CCD457002EA17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32DFC93323CCD457002EA17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32DFC93523CCD457002EA17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DFC93A23CCD457002EA17E /* Audi_listTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Audi_listTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DFC93E23CCD458002EA17E /* Audi_listTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audi_listTests.swift; sourceTree = "<group>"; };
+		32DFC94023CCD458002EA17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DFC94523CCD458002EA17E /* Audi_listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Audi_listUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DFC94923CCD458002EA17E /* Audi_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audi_listUITests.swift; sourceTree = "<group>"; };
+		32DFC94B23CCD458002EA17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DFC95823CCD593002EA17E /* NetworkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		32DFC95A23CCD6A9002EA17E /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		32DFC95D23CCD7EC002EA17E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		32DFC95F23CCDC83002EA17E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		32DFC96123CCDE7D002EA17E /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		32DFC96323CCDEA8002EA17E /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		32DFC96523CCF448002EA17E /* PostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
+		32DFC96723CD0E58002EA17E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		32DFC96923CD0EB6002EA17E /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
+		32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DFC92123CCD454002EA17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFC93723CCD457002EA17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFC94223CCD458002EA17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DFC91B23CCD454002EA17E = {
+			isa = PBXGroup;
+			children = (
+				32DFC92623CCD454002EA17E /* Audi_list */,
+				32DFC93D23CCD458002EA17E /* Audi_listTests */,
+				32DFC94823CCD458002EA17E /* Audi_listUITests */,
+				32DFC92523CCD454002EA17E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32DFC92523CCD454002EA17E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32DFC92423CCD454002EA17E /* Audi_list.app */,
+				32DFC93A23CCD457002EA17E /* Audi_listTests.xctest */,
+				32DFC94523CCD458002EA17E /* Audi_listUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DFC92623CCD454002EA17E /* Audi_list */ = {
+			isa = PBXGroup;
+			children = (
+				32DFC95C23CCD7D7002EA17E /* Model */,
+				32DFC95723CCD4AB002EA17E /* Networking */,
+				32DFC92723CCD454002EA17E /* AppDelegate.swift */,
+				32DFC92923CCD454002EA17E /* SceneDelegate.swift */,
+				32DFC92B23CCD454002EA17E /* ViewController.swift */,
+				32DFC92D23CCD454002EA17E /* Main.storyboard */,
+				32DFC93023CCD457002EA17E /* Assets.xcassets */,
+				32DFC93223CCD457002EA17E /* LaunchScreen.storyboard */,
+				32DFC93523CCD457002EA17E /* Info.plist */,
+				32DFC96723CD0E58002EA17E /* PostCell.swift */,
+				32DFC96923CD0EB6002EA17E /* WebImageView.swift */,
+			);
+			path = Audi_list;
+			sourceTree = "<group>";
+		};
+		32DFC93D23CCD458002EA17E /* Audi_listTests */ = {
+			isa = PBXGroup;
+			children = (
+				32DFC93E23CCD458002EA17E /* Audi_listTests.swift */,
+				32DFC94023CCD458002EA17E /* Info.plist */,
+			);
+			path = Audi_listTests;
+			sourceTree = "<group>";
+		};
+		32DFC94823CCD458002EA17E /* Audi_listUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32DFC94923CCD458002EA17E /* Audi_listUITests.swift */,
+				32DFC94B23CCD458002EA17E /* Info.plist */,
+			);
+			path = Audi_listUITests;
+			sourceTree = "<group>";
+		};
+		32DFC95723CCD4AB002EA17E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				32DFC95823CCD593002EA17E /* NetworkEngine.swift */,
+				32DFC95A23CCD6A9002EA17E /* CustomError.swift */,
+				32DFC95F23CCDC83002EA17E /* Reachability.swift */,
+				32DFC96123CCDE7D002EA17E /* Resource.swift */,
+				32DFC96323CCDEA8002EA17E /* Path.swift */,
+				32DFC96523CCF448002EA17E /* PostsService.swift */,
+				32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		32DFC95C23CCD7D7002EA17E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32DFC95D23CCD7EC002EA17E /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32DFC92323CCD454002EA17E /* Audi_list */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DFC94E23CCD458002EA17E /* Build configuration list for PBXNativeTarget "Audi_list" */;
+			buildPhases = (
+				32DFC92023CCD454002EA17E /* Sources */,
+				32DFC92123CCD454002EA17E /* Frameworks */,
+				32DFC92223CCD454002EA17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audi_list;
+			productName = Audi_list;
+			productReference = 32DFC92423CCD454002EA17E /* Audi_list.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32DFC93923CCD457002EA17E /* Audi_listTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DFC95123CCD458002EA17E /* Build configuration list for PBXNativeTarget "Audi_listTests" */;
+			buildPhases = (
+				32DFC93623CCD457002EA17E /* Sources */,
+				32DFC93723CCD457002EA17E /* Frameworks */,
+				32DFC93823CCD457002EA17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DFC93C23CCD457002EA17E /* PBXTargetDependency */,
+			);
+			name = Audi_listTests;
+			productName = Audi_listTests;
+			productReference = 32DFC93A23CCD457002EA17E /* Audi_listTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32DFC94423CCD458002EA17E /* Audi_listUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32DFC95423CCD458002EA17E /* Build configuration list for PBXNativeTarget "Audi_listUITests" */;
+			buildPhases = (
+				32DFC94123CCD458002EA17E /* Sources */,
+				32DFC94223CCD458002EA17E /* Frameworks */,
+				32DFC94323CCD458002EA17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32DFC94723CCD458002EA17E /* PBXTargetDependency */,
+			);
+			name = Audi_listUITests;
+			productName = Audi_listUITests;
+			productReference = 32DFC94523CCD458002EA17E /* Audi_listUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32DFC91C23CCD454002EA17E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = KaustubhtestApp;
+				TargetAttributes = {
+					32DFC92323CCD454002EA17E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					32DFC93923CCD457002EA17E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 32DFC92323CCD454002EA17E;
+					};
+					32DFC94423CCD458002EA17E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 32DFC92323CCD454002EA17E;
+					};
+				};
+			};
+			buildConfigurationList = 32DFC91F23CCD454002EA17E /* Build configuration list for PBXProject "Audi_list" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32DFC91B23CCD454002EA17E;
+			productRefGroup = 32DFC92523CCD454002EA17E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32DFC92323CCD454002EA17E /* Audi_list */,
+				32DFC93923CCD457002EA17E /* Audi_listTests */,
+				32DFC94423CCD458002EA17E /* Audi_listUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32DFC92223CCD454002EA17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFC93423CCD457002EA17E /* LaunchScreen.storyboard in Resources */,
+				32DFC93123CCD457002EA17E /* Assets.xcassets in Resources */,
+				32DFC92F23CCD454002EA17E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFC93823CCD457002EA17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFC94323CCD458002EA17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32DFC92023CCD454002EA17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFC96023CCDC83002EA17E /* Reachability.swift in Sources */,
+				32DFC96A23CD0EB6002EA17E /* WebImageView.swift in Sources */,
+				32DFC96C23CD0F60002EA17E /* ImageDownloader.swift in Sources */,
+				32DFC96223CCDE7D002EA17E /* Resource.swift in Sources */,
+				32DFC92C23CCD454002EA17E /* ViewController.swift in Sources */,
+				32DFC92823CCD454002EA17E /* AppDelegate.swift in Sources */,
+				32DFC95923CCD593002EA17E /* NetworkEngine.swift in Sources */,
+				32DFC96623CCF448002EA17E /* PostsService.swift in Sources */,
+				32DFC95E23CCD7EC002EA17E /* Post.swift in Sources */,
+				32DFC95B23CCD6A9002EA17E /* CustomError.swift in Sources */,
+				32DFC96823CD0E58002EA17E /* PostCell.swift in Sources */,
+				32DFC96423CCDEA8002EA17E /* Path.swift in Sources */,
+				32DFC92A23CCD454002EA17E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFC93623CCD457002EA17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFC93F23CCD458002EA17E /* Audi_listTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DFC94123CCD458002EA17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32DFC94A23CCD458002EA17E /* Audi_listUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32DFC93C23CCD457002EA17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DFC92323CCD454002EA17E /* Audi_list */;
+			targetProxy = 32DFC93B23CCD457002EA17E /* PBXContainerItemProxy */;
+		};
+		32DFC94723CCD458002EA17E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32DFC92323CCD454002EA17E /* Audi_list */;
+			targetProxy = 32DFC94623CCD458002EA17E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32DFC92D23CCD454002EA17E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32DFC92E23CCD454002EA17E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32DFC93223CCD457002EA17E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32DFC93323CCD457002EA17E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32DFC94C23CCD458002EA17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32DFC94D23CCD458002EA17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32DFC94F23CCD458002EA17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Audi_list/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcom.wt.ap.Audi-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32DFC95023CCD458002EA17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Audi_list/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcom.wt.ap.Audi-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32DFC95223CCD458002EA17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Audi_listTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcom.wt.ap.Audi-listTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audi_list.app/Audi_list";
+			};
+			name = Debug;
+		};
+		32DFC95323CCD458002EA17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Audi_listTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcom.wt.ap.Audi-listTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audi_list.app/Audi_list";
+			};
+			name = Release;
+		};
+		32DFC95523CCD458002EA17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Audi_listUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcom.wt.ap.Audi-listUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Audi_list;
+			};
+			name = Debug;
+		};
+		32DFC95623CCD458002EA17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Audi_listUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testcom.wt.ap.Audi-listUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Audi_list;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32DFC91F23CCD454002EA17E /* Build configuration list for PBXProject "Audi_list" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DFC94C23CCD458002EA17E /* Debug */,
+				32DFC94D23CCD458002EA17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DFC94E23CCD458002EA17E /* Build configuration list for PBXNativeTarget "Audi_list" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DFC94F23CCD458002EA17E /* Debug */,
+				32DFC95023CCD458002EA17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DFC95123CCD458002EA17E /* Build configuration list for PBXNativeTarget "Audi_listTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DFC95223CCD458002EA17E /* Debug */,
+				32DFC95323CCD458002EA17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32DFC95423CCD458002EA17E /* Build configuration list for PBXNativeTarget "Audi_listUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DFC95523CCD458002EA17E /* Debug */,
+				32DFC95623CCD458002EA17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32DFC91C23CCD454002EA17E /* Project object */;
+}
