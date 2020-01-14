@@ -25,9 +25,15 @@ class ViewController: UIViewController {
     }
     
     func loadPosts() {
+        if offset == 0 {
+            LoadingView.sharedInstance.showIndicator()
+        }
         PostsService().loadPosts(offset: offset, limit: 10) {[weak self] posts, error in
             guard let self = self else {return}
             DispatchQueue.main.async{
+                if self.offset == 0 {
+                    LoadingView.sharedInstance.hideIndicator()
+                }
                 if error == nil {
                     if let posts = posts {
                         self.dataSource.appendPosts(newPost: posts)

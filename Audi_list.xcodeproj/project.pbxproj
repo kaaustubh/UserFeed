@@ -26,6 +26,7 @@
 		32DFC96A23CD0EB6002EA17E /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96923CD0EB6002EA17E /* WebImageView.swift */; };
 		32DFC96C23CD0F60002EA17E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */; };
 		32F19FE323CDE5A3007692F3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F19FE223CDE5A3007692F3 /* Alert.swift */; };
+		32F19FE523CDECA9007692F3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F19FE423CDECA9007692F3 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		32DFC96923CD0EB6002EA17E /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 		32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		32F19FE223CDE5A3007692F3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		32F19FE423CDECA9007692F3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				32DFC96723CD0E58002EA17E /* PostCell.swift */,
 				32DFC96923CD0EB6002EA17E /* WebImageView.swift */,
 				32F19FE223CDE5A3007692F3 /* Alert.swift */,
+				32F19FE423CDECA9007692F3 /* LoadingView.swift */,
 			);
 			path = Audi_list;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				32DFC92823CCD454002EA17E /* AppDelegate.swift in Sources */,
 				32F19FE323CDE5A3007692F3 /* Alert.swift in Sources */,
 				32DFC95923CCD593002EA17E /* NetworkEngine.swift in Sources */,
+				32F19FE523CDECA9007692F3 /* LoadingView.swift in Sources */,
 				32DFC96623CCF448002EA17E /* PostsService.swift in Sources */,
 				32DFC95E23CCD7EC002EA17E /* Post.swift in Sources */,
 				32DFC95B23CCD6A9002EA17E /* CustomError.swift in Sources */,
