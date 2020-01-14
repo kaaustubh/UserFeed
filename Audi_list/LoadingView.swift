@@ -24,7 +24,8 @@ public class LoadingView {
         indicator.style = .large
         indicator.center = blurImg.center
         indicator.startAnimating()
-        indicator.color = .black    
+        indicator.color = .black
+        
     }
 
     func showIndicator(){
