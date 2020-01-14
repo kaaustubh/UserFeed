@@ -10,7 +10,7 @@ import UIKit
 
 class PostCell: UITableViewCell {
 
-    @IBOutlet weak var userImage: WebImageView!
+    @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     var post: Post?
@@ -31,6 +31,6 @@ class PostCell: UITableViewCell {
         nameLabel.text = post.user.name
         messageLabel.text = post.message
 //        userImage.url = post.user.image_url
-        userImage.imageFromServerURL(urlString: post.user.image_url, PlaceHolderImage: UIImage(named: "user")!)
+        userImage.imageFromServerURL(urlString: post.user.image_url, PlaceHolderImage: UIImage(named: "user", in: Bundle(for: PostCell.self), compatibleWith: nil)!)
     }
 }

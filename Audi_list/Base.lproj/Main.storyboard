@@ -35,7 +35,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R18-Si-Itl" userLabel="userimage" customClass="WebImageView" customModule="Audi_list" customModuleProvider="target">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R18-Si-Itl" userLabel="userimage">
                                                     <rect key="frame" x="5" y="5" width="50" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="fyD-92-F54"/>
