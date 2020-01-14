@@ -8,4 +8,4 @@
 
 1. Clone the repo- https://github.com/kaaustubh/UserFeed.git
 2. Open Audi_list.xcodeproj
-3. Run the app- Command + R
+3. Run the app- `Command + R`
