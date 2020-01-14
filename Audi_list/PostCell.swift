@@ -13,6 +13,7 @@ class PostCell: UITableViewCell {
     @IBOutlet weak var userImage: WebImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
+    var post: Post?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,8 +27,10 @@ class PostCell: UITableViewCell {
     }
     
     func setPost(post: Post){
+        self.post = post
         nameLabel.text = post.user.name
         messageLabel.text = post.message
-        userImage.url = post.user.image_url
+//        userImage.url = post.user.image_url
+        userImage.imageFromServerURL(urlString: post.user.image_url, PlaceHolderImage: UIImage(named: "user")!)
     }
 }

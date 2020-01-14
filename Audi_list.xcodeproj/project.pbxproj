@@ -25,6 +25,7 @@
 		32DFC96823CD0E58002EA17E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96723CD0E58002EA17E /* PostCell.swift */; };
 		32DFC96A23CD0EB6002EA17E /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96923CD0EB6002EA17E /* WebImageView.swift */; };
 		32DFC96C23CD0F60002EA17E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */; };
+		32F19FE323CDE5A3007692F3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F19FE223CDE5A3007692F3 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		32DFC96723CD0E58002EA17E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		32DFC96923CD0EB6002EA17E /* WebImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 		32DFC96B23CD0F60002EA17E /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		32F19FE223CDE5A3007692F3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				32DFC93523CCD457002EA17E /* Info.plist */,
 				32DFC96723CD0E58002EA17E /* PostCell.swift */,
 				32DFC96923CD0EB6002EA17E /* WebImageView.swift */,
+				32F19FE223CDE5A3007692F3 /* Alert.swift */,
 			);
 			path = Audi_list;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				32DFC96223CCDE7D002EA17E /* Resource.swift in Sources */,
 				32DFC92C23CCD454002EA17E /* ViewController.swift in Sources */,
 				32DFC92823CCD454002EA17E /* AppDelegate.swift in Sources */,
+				32F19FE323CDE5A3007692F3 /* Alert.swift in Sources */,
 				32DFC95923CCD593002EA17E /* NetworkEngine.swift in Sources */,
 				32DFC96623CCF448002EA17E /* PostsService.swift in Sources */,
 				32DFC95E23CCD7EC002EA17E /* Post.swift in Sources */,
@@ -491,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JY796EE4J5;
 				INFOPLIST_FILE = Audi_list/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JY796EE4J5;
 				INFOPLIST_FILE = Audi_list/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

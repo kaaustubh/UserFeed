@@ -37,24 +37,48 @@ class ImageDownloader: NSObject {
     func saveImage(image: UIImage, at path: String) {
         let localpath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
         let url = NSURL(fileURLWithPath: localpath)
-        if let pathComponent = url.appendingPathComponent(path) {
-            try? image.pngData()?.write(to: pathComponent)
+        if let imageName = base64EncodedName(for: path) {
+            if let pathComponent = url.appendingPathComponent(imageName) {
+                if let data = image.pngData() {
+                    do {
+                        try data.write(to: pathComponent as URL)
+                    }
+                    catch {
+                        print("Error in writing data")
+                    }
+                }
+            }
         }
     }
     
     func localImage(for imageurl: String) -> UIImage? {
          let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+        
         let url = NSURL(fileURLWithPath: path)
-        if let pathComponent = url.appendingPathComponent(imageurl) {
-            let filePath = pathComponent.path
+        if let imageName = base64EncodedName(for: imageurl) {
+            if let pathComponent = url.appendingPathComponent(imageName) {
+                let filePath = pathComponent.path
                 let fileManager = FileManager.default
                 if fileManager.fileExists(atPath: filePath) {
-                    return UIImage(contentsOfFile: filePath)
+                    return nil
+//                    return UIImage(contentsOfFile: filePath)
                 } else {
                     return nil
                 }
         } else {
             return nil
+            }
         }
+        else {
+            return nil
+        }
+    }
+    
+    func base64EncodedName(for imageurl: String) -> String? {
+        let utf8str = imageurl.data(using: .utf8, allowLossyConversion: true)
+        if let base64Encoded = utf8str?.base64EncodedString() {
+            return base64Encoded
+        }
+        return nil
     }
 }
